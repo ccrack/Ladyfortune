@@ -1,83 +1,155 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-body{
-    font-family: arial, sans serif;
-}
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    justify-items: center;
-    align-items: center;
-    border-bottom: 1px solid lightgray;
-    height: 80px;
-    width: 100%;
-}
-.nav-Links{
-    display: flex;
-    list-style: none;
-}
-.nav-Links a{
-    text-decoration: none;
-    font-size: 30px;
-    color: #006600;
-    margin-right: 2rem;
-}
-.navbar .logo{
-    margin-left: 2rem;
-}
-.navbar .logo a{
-    color: black;
-    font-size: 30px;
-    font-weight: bold;
-    text-decoration: none;
-}
-.navbar .logo a span{
-    color: #006600;
-}
-.menu-icon{
-    display: none;
-    font-size: 30px;
-    color: #006600;
-    cursor: pointer;
-}
-/*add banner */
-.header-banner{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 100px;
-    background-color: rgb(211, 211, 211);
-}
-.header-banner img{
-    max-width: 50%;
-    height: auto;
-}
-.header-banner h2{
-    font-size: 60px;
-}
-
-.header-banner h2, h1{
-     margin-bottom: 20px;
-     font-family: 'Times New Roman', Times, serif;
-}
-.banner-content{
-    margin-left: 70px;
-    width: 500px;
-}
-.banner-content a{
-    text-decoration: none;
-    font-size: 24px;
-    color: white;
-    cursor: pointer;
-    background-color: green;
-    padding: 7px;
-}
-.banner-content a:hover{
-    background-color: white;
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box
+    }
+    
+    body {
+    font-family:arial,sans serif
+    }
+    
+    .navbar {
+    display:flex;
+    justify-content:space-between;
+    justify-items:center;
+    align-items:center;
+    border-bottom:1px solid lightgray;
+    height:80px;
+    width:100%
+    }
+    
+    .nav-Links {
+    display:flex;
+    list-style:none
+    }
+    
+    .nav-Links a {
+    text-decoration:none;
+    font-size:20px;
+    color:#060;
+    margin-right:2rem
+    }
+    
+    .navbar .logo {
+    margin-left:2rem
+    }
+    
+    .navbar .logo a {
+    color:#000;
+    font-size:30px;
+    font-weight:700;
+    text-decoration:none
+    }
+    
+    .navbar .logo a span {
+    color:#060
+    }
+    
+    .menu-icon {
+    display:none;
+    font-size:30px;
+    color:#060;
+    cursor:pointer
+    }
+    
+    .header-banner {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-top:100px;
+    background-color:#d3d3d3
+    }
+    
+    .header-banner img {
+    max-width:50%;
+    height:auto
+    }
+    
+    .header-banner h2 {
+    font-size:60px
+    }
+    
+    .header-banner h2,h1 {
+    margin-bottom:20px;
+    font-family:'Times New Roman',Times,serif
+    }
+    
+    .banner-content {
+    margin-left:70px;
+    width:500px
+    }
+    
+    .banner-content a {
+    text-decoration:none;
+    font-size:24px;
+    color:#fff;
+    cursor:pointer;
+    background-color:green;
+    padding:7px
+    }
+    
+    .banner-content a:hover {
+    background-color:#fff;
+    color:green;
+    border:1px solid green;
+    transition:color 1s
+    }
+    
+    .last-post {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-top:50px
+    }
+    
+    .post-links {
+    display:flex;
+    justify-content:center;
+    margin-top:30px;
+    max-width:80%
+    }
+    
+    .last-post h2 {
+    color:#060
+    }
+    
+    .post-item {
+    display:flex;
+    margin:10px 20px
+    }
+    
+    .post-item img {
+    width:calc(100% /3);
+    height:auto;
+    border-radius:10px
+    }
+    
+    .post-item .post-content {
+    display:flex;
+    justify-content:space-between;
+    flex-direction:column;
+    width:10px;
+    text-align:justify;
+    margin-left:10px;
+    width:400px
+    }
+    
+    .post-item .post-content P {
+    font-style:italic
+    }
+    
+    .post-item .post-content a {
+    text-decoration:none;
     color: green;
-    border: 1px solid green;
-    transition: color 1s;
-}
+    }
+    
+    .learn-more {
+    font-size:12px;
+    text-decoration:none;
+    color:#fff;
+    cursor:pointer;
+    background-color:green;
+    padding:4px;
+    margin-top:20px
+    }
