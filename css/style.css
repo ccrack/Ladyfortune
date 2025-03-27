@@ -185,4 +185,14 @@
     .client .card .client-content p{
         font-style: italic;
     }
+    .footer{
+        background-color: black;
+        margin-top: 50px;
+        height: 100px;
+    }
+    .footer p{
+        color: white;
+        text-align: center;
+        padding-top: 30px;   
+    }
    
