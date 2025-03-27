@@ -110,7 +110,7 @@
     max-width:80%
     }
     
-    .last-post h2 {
+    .section-title{
     color:#060
     }
     
@@ -153,3 +153,36 @@
     padding:4px;
     margin-top:20px
     }
+    
+    /* what client say section /*/
+    .client-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .client{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .client .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: calc(100% / 5);
+        margin: 0 10px;
+    }
+
+    .client .card img{
+        width: calc(100% / 3);
+    }
+    .client .card .client-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .client .card .client-content p{
+        font-style: italic;
+    }
+   
