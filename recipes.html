@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--custom css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <!--navbar-->
+        <nav class="navbar">
+            <div class="logo"><a href="index.html"><span>Lady</span>Fortune</a></div>
+            <ul class="nav-Links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">RECIPES</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">ABOUT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="tabs-recips">
+        <h2 class="title">All Our Recipes</h2>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                    type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Main Courses</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                    type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Healthy & special
+                    Diets</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
+                    type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Appetizers &
+                    Starters</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+                tabindex="0">
+
+                <div class="container">
+                    <div class="row">
+                        <section class="col-12 col-sm-6 col-md-4 col-lg-3 recipe-item">
+                            <img src="src/Spaghetti_Aglio.jpg" alt="recipe-image">
+                            <h2>Spaghetti Aglio e Olio</h2>
+                            <p>A simple yet flavorful Italian pasta dish with garlic, olive oil, red pepper flakes, and
+                                parsley.</p>
+                        </section>
+                        <section class="col-12 col-sm-6 col-md-4 col-lg-3 recipe-item">
+                            <img src="src/Chicken_Tikka_Masala.jpg" alt="recipe-image">
+                            <h2>Chicken Tikka Masala</h2>
+                            <p>Marinated chicken cooked in a spiced tomato-based sauce, creamy and aromatic, typically
+                                served with naan or rice.</p>
+                        </section>
+                        <section class="col-12 col-sm-6 col-md-4 col-lg-3 recipe-item">
+                            <img src="src/Margarita_Pizza.jpg" alt="recipe-image">
+                            <h2>Margarita Pizza</h2>
+                            <p>A classic pizza with a thin crust, topped with fresh mozzarella, tomato sauce, basil, and
+                                a drizzle of olive oil.</p>
+                        </section>
+                        <section class="col-12 col-sm-6 col-md-4 col-lg-3 recipe-item">
+                            <img src="src/Beef.jpg" alt="recipe-image">
+                            <h2>Beef Stir-Fry with Vegetables</h2>
+                            <p>A quick stir-fry featuring tender beef, colorful vegetables like bell peppers and
+                                broccoli, in a savory soy-based sauce.</p>
+                        </section>
+                        <section class="col-12 col-sm-6 col-md-4 col-lg-3 recipe-item">
+                            <img src="src/Shakshuka.jpg" alt="recipe-image">
+                            <h2>Shakshuka</h2>
+                            <p>A flavorful dish of poached eggs in a spiced tomato, bell pepper, and onion sauce,
+                                typically eaten for breakfast or brunch.</p>
+                        </section>
+                        <section class="col-12 col-sm-6 col-md-4 col-lg-3 recipe-item">
+                            <img src="src/Guacamole.jpg" alt="recipe-image">
+                            <h2>Guacamole</h2>
+                            <p>A creamy, tangy avocado dip with lime juice, cilantro, tomato, and onion, often served
+                                with tortilla chips.</p>
+                        </section>
+                        <section class="col-12 col-sm-6 col-md-4 col-lg-3 recipe-item">
+                            <img src="src/Paella.jpg" alt="recipe-image">
+                            <h2>Paella</h2>
+                            <p>Paella is a traditional Spanish rice dish, typically made with saffron, seafood, chicken,
+                                and vegetables. It’s known for its vibrant flavors and the crispy "socarrat" layer at
+                                the bottom.</p>
+                        </section>
+                        <section class="col-12 col-sm6 col-md-4 col-lg-3 recipe-item">
+                            <img src="src/Falafel.jpg" alt="recipe-image">
+                            <h2>Falafel</h2>
+                            <p>Falafel is a popular Middle Eastern dish made from ground chickpeas, herbs, and spices,
+                                shaped into balls or patties, and deep-fried until crispy. It's often served in pita
+                                with tahini or salad.</p>
+                        </section>
+                    </div>
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                ...</div>
+            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                ...</div>
+            <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" tabindex="0">...</div>
+        </div>
+    </div>
+
+    <!--add footer-->
+    <footer>
+        <div class="footer">
+            <p>&#169; copy 2025 Ladyfortune. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
