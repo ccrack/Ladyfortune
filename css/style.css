@@ -1,11 +1,12 @@
 * {
     padding:0;
     margin:0;
-    box-sizing:border-box
+    box-sizing: border-box;
     }
     
-    body {
-    font-family:arial,sans serif
+
+  body{
+        font-family:arial,sans serif;
     }
     
     .navbar {
@@ -20,7 +21,8 @@
     
     .nav-Links {
     display:flex;
-    list-style:none
+    list-style:none;
+    margin-bottom: 0px;
     }
     
     .nav-Links a {
@@ -219,3 +221,43 @@
    #profile-tab-pane{
     height: 100vh;
    }
+
+   /* contact page */
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15vh;
+    height: 100%;
+   }
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid lightgray;
+    border-style: dotted;
+    margin-top: 5vh;
+}
+.contact-container img{
+    width: 50%;
+    min-width: 450px;
+    height: auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+ .form-item{
+    border: 1px solid lightgray;
+    width: 20vw;
+    height: 40px;
+    padding-left: 10px;
+}
+.inp, .txtacomment{
+    margin-bottom: 10px;
+}
+.txtacomment{
+    height: 80px;
+}
