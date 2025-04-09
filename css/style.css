@@ -194,6 +194,27 @@ h1 {
     font-style: italic;
 }
 
+.about-section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.about-section-1 img {
+    width: calc(100% / 14);
+    height: auto;
+    margin: 12px 0;
+}
+
+.ab-content {
+    width: 40vw;
+    font-style: italic;
+    text-align: center;
+    margin-top: 12px;
+}
+
 .footer {
     background-color: black;
     width: 100%;
@@ -283,9 +304,11 @@ form {
 .txtacomment {
     height: 80px;
 }
-.about{
+
+.about {
     margin-top: 10vh;
 }
+
 .about-section {
     display: flex;
     justify-content: center;
@@ -300,13 +323,14 @@ form {
     margin-right: 60px;
     font-family: 'Times New Roman', Times, serif;
 }
-.about-content p{
+
+.about-content p {
     font-style: italic;
     text-align: justify;
     margin-top: 10px;
 }
 
-.about-section img{
+.about-section img {
     width: 15%;
     height: auto;
 }
