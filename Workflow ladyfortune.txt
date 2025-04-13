@@ -1,0 +1,11 @@
+Name for site: LadyFortune (this is a blog where Fortune publish his creation and experience culinary).
+
+User stories: 
+
+Actors: Visitors, subscribers, Creator of blog
+
+
+1) As visitor, i can visit the recipes, to make my favorite foods.
+2) As Subscriber, I can subscribe, to receive the last recipes.
+3) As Creator of blog, i can publish a new recipe, like text, images, video.
+
